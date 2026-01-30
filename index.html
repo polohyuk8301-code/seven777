@@ -132,7 +132,7 @@
 </head>
 <body class="antialiased">
 
-    <!-- Toast UI -->
+    <!-- Toast UI (카톡 복사용) -->
     <div id="toast">복사되었습니다!</div>
 
     <!-- Header -->
@@ -140,19 +140,21 @@
         <nav class="container mx-auto px-4 md:px-8 h-16 md:h-20 flex items-center justify-between">
             <a href="/" class="text-lg md:text-2xl font-black tracking-[0.2em] text-gold-gradient uppercase">ROOMALBA</a>
             <div class="flex items-center space-x-2 md:space-x-6">
-                <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex items-center space-x-2 bg-kakao px-3 md:px-6 py-2 md:py-2.5 rounded-full shadow-lg group">
+                <!-- Kakao Copy Button (유지) -->
+                <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex items-center space-x-2 bg-kakao px-3 md:px-6 py-2 md:py-2.5 rounded-full shadow-lg group active:scale-95 transition-transform">
                     <svg class="w-4 h-4" fill="#1A1A1A" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.712 4.8 4.298 6.13-.186.68-.673 2.455-.77 2.822-.12.463.16.458.337.34.137-.092 2.207-1.5 3.09-2.098.34.05.69.075 1.045.075 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/></svg>
                     <span class="text-[10px] md:text-xs font-bold uppercase text-darkest font-black">Kakao Talk</span>
                 </button>
-                <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="text-[10px] md:text-xs font-bold border border-primary/30 text-primary px-3 md:px-6 py-2 md:py-2.5 rounded-full hover:bg-primary hover:text-darkest transition-all font-black">
+                <!-- Phone Call Link (수정: 즉시 연결) -->
+                <a href="tel:010-8208-0488" class="text-[10px] md:text-xs font-bold border border-primary/30 text-primary px-3 md:px-6 py-2 md:py-2.5 rounded-full hover:bg-primary hover:text-darkest transition-all font-black active:scale-95">
                     전화 상담
-                </button>
+                </a>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Section (Updated as requested) -->
+        <!-- Hero Section (디자인 유지) -->
         <section class="relative min-h-[95vh] flex flex-col items-center justify-center text-center px-6 pt-20 hero-section">
             <div class="max-w-5xl space-y-10">
                 <div class="space-y-6">
@@ -162,18 +164,20 @@
                     <h1 class="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight text-white">
                         <span class="block text-gold-gradient">강남 룸알바</span> <span class="italic">현실적인 가이드</span>
                     </h1>
-                    <p class="text-base md:text-2xl text-gray-200 font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-2xl">
+                    <p class="text-base md:text-2xl text-gray-200 font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-2xl leading-relaxed">
                         "손님이 너무 많아 언니들이 부족할 정도입니다."<br class="hidden md:block">
                         가족 같은 환경에서 진짜 가치를 인정받으며 확실한 수익을 만드세요.
                     </p>
                 </div>
 
                 <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 pt-8">
-                    <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-primary text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-primary/30">
+                    <!-- Phone Call Button (수정: 즉시 연결) -->
+                    <a href="tel:010-8208-0488" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-primary text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-primary/30 active:scale-95">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                        <span class="font-black text-xl md:text-2xl">전화 번호 복사</span>
-                    </button>
-                    <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-kakao text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-kakao/20">
+                        <span class="font-black text-xl md:text-2xl">실시간 전화 상담 연결</span>
+                    </a>
+                    <!-- Kakao Copy Button (유지) -->
+                    <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-kakao text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-kakao/20 active:scale-95">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.712 4.8 4.298 6.13-.186.68-.673 2.455-.77 2.822-.12.463.16.458.337.34.137-.092 2.207-1.5 3.09-2.098.34.05.69.075 1.045.075 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/></svg>
                         <span class="font-black text-xl md:text-2xl">카톡 아이디 복사</span>
                     </button>
@@ -225,30 +229,26 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- 업무내용 -->
                     <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
                         <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                         </div>
                         <h4 class="text-2xl font-black text-white uppercase">업무 내용</h4>
                         <div class="flex-grow space-y-4">
-                            <p class="text-gray-400 text-sm leading-relaxed italic">"진상? 블랙리스트? 저희가 미리 거릅니다."</p>
                             <ul class="space-y-4 text-gray-300 text-sm font-medium">
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 블랙리스트, 만취 손님 원천 차단</li>
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 편안한 분위기 대화 및 서브 역할</li>
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 초보자 각별히 신경 및 1:1 케어</li>
-                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 개인 팁이 정말 잘 나오는 고퀄리티 분위기</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 개인 팁이 정말 잘 나오는 환경</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- 근무시간 -->
                     <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
                         <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <h4 class="text-2xl font-black text-white uppercase">근무 시간</h4>
                         <div class="flex-grow space-y-4">
-                            <p class="text-gray-400 text-sm leading-relaxed italic">"정해진 시간 없어요. 편할 때 나오세요."</p>
                             <ul class="space-y-4 text-gray-300 text-sm font-medium">
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 직장인, 투잡, 대학생 모두 환영</li>
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 출근이 늦어도 관계없음 (자율 출근)</li>
@@ -257,14 +257,12 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- 자격 및 복장 -->
                     <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
                         <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <h4 class="text-2xl font-black text-white uppercase">자격 및 복장</h4>
                         <div class="flex-grow space-y-4">
-                            <p class="text-gray-400 text-sm leading-relaxed italic">"자신감만 가지고 오시면 충분합니다."</p>
                             <ul class="space-y-4 text-gray-300 text-sm font-medium">
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 20세 이상 한국 국적 레이디 누구나</li>
                                 <li class="flex items-start gap-2"><span class="text-primary">•</span> 원피스, 투피스 등 본인 스타일 복장</li>
@@ -286,15 +284,15 @@
                         <div class="h-1.5 w-32 bg-primary mx-auto rounded-full"></div>
                     </div>
                     <p class="text-xl md:text-3xl text-gray-200 leading-relaxed max-w-4xl mx-auto italic font-medium">
-                        "여기까지 읽으셨는데 망설여지시나요? 하루만 투자해 보세요. <br class="hidden md:block">
+                        "여기까지 읽으셨는데 망설여지시나요? 딱 하루만 투자해 보세요. <br class="hidden md:block">
                         나왔는데 방 개수나 실장 태도가 별로다 싶으면 **저 쌍욕 한 번 하시고 제 번호 차단**하시면 됩니다. <br class="hidden md:block">
                         <span class="text-primary font-black">물론 그럴 일 절대 없다는 거, 자신 있게 말씀드립니다."</span>
                     </p>
                     <div class="grid md:grid-cols-2 gap-6 pt-10">
-                        <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="bg-primary text-darkest font-black text-xl py-6 rounded-3xl hover:bg-yellow-600 transition-all shadow-2xl">상담 번호 복사</button>
-                        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="bg-kakao text-darkest font-black text-xl py-6 rounded-3xl hover:opacity-90 transition-all shadow-2xl">카톡 아이디 복사</button>
+                        <a href="tel:010-8208-0488" class="bg-primary text-darkest font-black text-xl py-6 rounded-3xl hover:bg-yellow-600 transition-all shadow-2xl flex items-center justify-center active:scale-95">상담 전화 바로 연결</a>
+                        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="bg-kakao text-darkest font-black text-xl py-6 rounded-3xl hover:opacity-90 transition-all shadow-2xl active:scale-95">카톡 아이디 복사</button>
                     </div>
-                    <p class="text-gray-500 font-bold text-lg underline underline-offset-8 decoration-primary">면접 오시면 차비 지원 해드립니다!</p>
+                    <p class="text-gray-500 font-bold text-lg underline underline-offset-8 decoration-primary italic">면접 오시면 차비 지원 해드립니다!</p>
                 </div>
             </section>
 
@@ -375,14 +373,14 @@
         </div>
     </footer>
 
-    <!-- Mobile Sticky Footer CTA -->
+    <!-- Mobile Sticky Footer CTA (수정: 전화는 바로연결, 카톡은 복사) -->
     <div class="mobile-cta md:hidden flex gap-3 shadow-[0_-15px_40px_rgba(0,0,0,0.7)]">
         <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex-1 bg-kakao text-darkest font-black h-16 flex items-center justify-center rounded-2xl text-[15px] shadow-lg active:scale-95 transition-transform">
             카톡 복사
         </button>
-        <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="flex-[1.8] bg-primary text-darkest font-black h-16 flex items-center justify-center rounded-2xl text-[16px] shadow-lg active:scale-95 transition-transform uppercase italic">
-            번호 복사
-        </button>
+        <a href="tel:010-8208-0488" class="flex-[1.8] bg-primary text-darkest font-black h-16 flex items-center justify-center rounded-2xl text-[16px] shadow-lg active:scale-95 transition-transform uppercase italic">
+            실시간 전화 연결
+        </a>
     </div>
 
     <div class="h-32 md:hidden"></div>
