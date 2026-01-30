@@ -8,18 +8,18 @@
     <meta name="google-site-verification" content="0bSClwtjjOVNvnGhzUMcYA5yC4sCq-lgDRZ88PpwXrs" />
     
     <!-- SEO Meta Tags -->
-    <title>룸알바 정보 안내 | 강남 1등 매출팀 실시간 상담 | 밤알바·쩜오·풀싸롱·여우알바</title>
-    <meta name="description" content="강남 넘사 탑클래스 매출 1등 팀 직통 안내. 여우알바, 악녀알바보다 현실적인 강남룸알바, 쩜오, 텐카페, 고수익알바 정보를 실시간 1:1 상담을 통해 100% 오픈하여 안내해 드립니다.">
+    <title>룸알바 정보 안내 | 강남 1등 매출팀 실시간 상담 | 밤알바·쩜오·여우알바</title>
+    <meta name="description" content="강남 넘사 탑클래스 매출 1등 팀 직통 안내. 여우알바보다 확실한 강남룸알바, 쩜오, 고수익알바 정보를 실시간 1:1 상담을 통해 100% 오픈하여 안내합니다.">
     <meta name="keywords" content="룸알바, 강남룸알바, 밤알바, 여우알바, 악녀알바, 고수익알바, 쩜오알바, 풀싸롱알바, 텐카페알바, 텐프로알바, 셔츠룸알바, 당일지급알바, 유흥알바, 여성고수익알바, 강남밤일, 01082080488">
     <link rel="canonical" href="https://albaroomm.com">
     
-    <!-- Favicon 설정: 새로 생성한 favicon.svg 파일을 연결합니다. -->
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="강남 1등 매출팀의 현실적인 룸알바 정보 | 실시간 비밀 상담">
-    <meta property="og:description" content="여우알바나 악녀알바에서 시간 낭비하지 마세요. 강남 1등 팀이 직접 100% 투명하게 모든 조건을 안내합니다.">
+    <meta property="og:title" content="강남 룸알바 현실적인 가이드 | 실시간 비밀 상담">
+    <meta property="og:description" content="손님이 너무 많아 언니들이 부족합니다. 돈 걱정 없이 1일 체험부터 시작하세요.">
     <meta property="og:url" content="https://albaroomm.com">
 
     <!-- Tailwind CSS -->
@@ -58,7 +58,7 @@
         
         .hero-section {
             background: linear-gradient(rgba(5, 5, 5, 0.8), rgba(5, 5, 5, 0.95)), 
-                        url('https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=2000&auto=format&fit=crop'); 
+                        url('https://images.unsplash.com/photo-1514525253361-bee243870eb2?q=80&w=2000&auto=format&fit=crop'); 
             background-size: cover;
             background-position: center;
         }
@@ -93,14 +93,11 @@
             text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
         }
 
-        details summary::-webkit-details-marker { display:none; }
-        
         .badge-premium {
             background: linear-gradient(90deg, #D4AF37, #F3E5AB);
             color: #050505;
         }
 
-        /* Toast message styles */
         #toast {
             visibility: hidden;
             min-width: 250px;
@@ -130,19 +127,12 @@
         @-webkit-keyframes fadeout { from {bottom: 100px; opacity: 1;} to {bottom: 0; opacity: 0;} }
         @keyframes fadeout { from {bottom: 100px; opacity: 1;} to {bottom: 0; opacity: 0;} }
 
-        /* SEO Tag Cloud */
-        .tag-cloud span {
-            font-size: 10px;
-            color: #444;
-            margin: 2px;
-            transition: color 0.3s;
-        }
-        .tag-cloud span:hover { color: #D4AF37; }
+        .tag-cloud span { font-size: 10px; color: #444; margin: 2px; }
     </style>
 </head>
 <body class="antialiased">
 
-    <!-- Toast Message UI -->
+    <!-- Toast UI -->
     <div id="toast">복사되었습니다!</div>
 
     <!-- Header -->
@@ -150,12 +140,10 @@
         <nav class="container mx-auto px-4 md:px-8 h-16 md:h-20 flex items-center justify-between">
             <a href="/" class="text-lg md:text-2xl font-black tracking-[0.2em] text-gold-gradient uppercase">ROOMALBA</a>
             <div class="flex items-center space-x-2 md:space-x-6">
-                <!-- Kakao Copy Button -->
-                <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex items-center space-x-2 bg-kakao px-3 md:px-6 py-2 md:py-2.5 rounded-full transform transition hover:scale-105 active:scale-95 shadow-lg shadow-kakao/10 group">
+                <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex items-center space-x-2 bg-kakao px-3 md:px-6 py-2 md:py-2.5 rounded-full shadow-lg group">
                     <svg class="w-4 h-4" fill="#1A1A1A" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.712 4.8 4.298 6.13-.186.68-.673 2.455-.77 2.822-.12.463.16.458.337.34.137-.092 2.207-1.5 3.09-2.098.34.05.69.075 1.045.075 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/></svg>
                     <span class="text-[10px] md:text-xs font-bold uppercase text-darkest font-black">Kakao Talk</span>
                 </button>
-                <!-- Phone Copy Button -->
                 <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="text-[10px] md:text-xs font-bold border border-primary/30 text-primary px-3 md:px-6 py-2 md:py-2.5 rounded-full hover:bg-primary hover:text-darkest transition-all font-black">
                     전화 상담
                 </button>
@@ -164,182 +152,210 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-6 pt-20 hero-section">
+        <!-- Hero Section (Updated as requested) -->
+        <section class="relative min-h-[95vh] flex flex-col items-center justify-center text-center px-6 pt-20 hero-section">
             <div class="max-w-5xl space-y-10">
                 <div class="space-y-6">
-                    <div class="inline-block px-5 py-1.5 badge-premium rounded-full shadow-xl">
-                        <span class="text-[10px] md:text-xs font-black uppercase tracking-[0.3em]">Gangnam Top-Class No.1 Team</span>
+                    <div class="inline-block px-5 py-2 badge-premium rounded-full shadow-2xl">
+                        <span class="text-[10px] md:text-xs font-black uppercase tracking-[0.3em]">Gangnam Top-Class No.1 Team Recruitment</span>
                     </div>
                     <h1 class="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight text-white">
-                        <span class="block md:inline font-black">강남 룸알바</span> <span class="text-gold-gradient italic">현실적인 가이드</span>
+                        <span class="block text-gold-gradient">강남 룸알바</span> <span class="italic">현실적인 가이드</span>
                     </h1>
-                    <p class="text-sm md:text-2xl text-gray-200 font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-2xl opacity-90">
-                        여우알바, 악녀알바 등 수많은 광고 속 거짓 정보에 지치셨나요?<br class="hidden md:block">
-                        강남 매출 1등 팀이 직접 모든 조건을 투명하게 오픈하여 안내해 드립니다.
+                    <p class="text-base md:text-2xl text-gray-200 font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-2xl">
+                        "손님이 너무 많아 언니들이 부족할 정도입니다."<br class="hidden md:block">
+                        가족 같은 환경에서 진짜 가치를 인정받으며 확실한 수익을 만드세요.
                     </p>
                 </div>
 
-                <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 pt-6">
-                    <!-- Phone Copy Hero Button -->
-                    <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-primary text-darkest px-10 py-5 rounded-2xl hover:bg-yellow-600 transition-all active:scale-95 shadow-2xl shadow-primary/20">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 pt-8">
+                    <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-primary text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-primary/30">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                        <span class="font-black text-xl md:text-2xl">실시간 전화 번호 복사</span>
+                        <span class="font-black text-xl md:text-2xl">전화 번호 복사</span>
                     </button>
-                    
-                    <div class="hidden md:block h-12 w-px bg-white/20"></div>
-                    
-                    <!-- Kakao Copy Hero Button -->
-                    <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-kakao text-darkest px-10 py-5 rounded-2xl hover:opacity-90 transition-all active:scale-95 shadow-2xl shadow-kakao/20">
+                    <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="w-full md:w-auto flex items-center justify-center space-x-3 bg-kakao text-darkest px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-kakao/20">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.712 4.8 4.298 6.13-.186.68-.673 2.455-.77 2.822-.12.463.16.458.337.34.137-.092 2.207-1.5 3.09-2.098.34.05.69.075 1.045.075 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/></svg>
-                        <span class="font-black text-xl md:text-2xl">실시간 카톡 아이디 복사</span>
+                        <span class="font-black text-xl md:text-2xl">카톡 아이디 복사</span>
                     </button>
-                </div>
-                
-                <div class="pt-8 flex flex-wrap justify-center gap-3 opacity-60">
-                    <span class="text-xs text-gray-400">#밤알바</span>
-                    <span class="text-xs text-gray-400">#쩜오알바</span>
-                    <span class="text-xs text-gray-400">#텐카페</span>
-                    <span class="text-xs text-gray-400">#고수익보장</span>
-                    <span class="text-xs text-gray-400">#여우알바대안</span>
                 </div>
             </div>
         </section>
 
-        <!-- SEO Content 보강 -->
+        <!-- Information Content Area -->
         <div class="container mx-auto max-w-5xl px-6 space-y-32 pb-32 pt-24">
             
-            <!-- 1. Real Talk Section -->
-            <section id="real-talk" class="space-y-12 text-primary">
-                <div class="info-card p-10 md:p-16 border-primary/30 bg-primary/5 shadow-2xl relative overflow-hidden">
-                    <div class="relative z-10 space-y-8 text-center">
-                        <h2 class="text-3xl md:text-5xl font-black text-white italic tracking-tight">
-                            "왜 여우알바 대신 저희를 찾아야 할까요?"
-                        </h2>
-                        <div class="h-1 w-24 bg-primary mx-auto"></div>
-                        <div class="grid md:grid-cols-2 gap-10 text-gray-300 text-base md:text-lg leading-relaxed text-left">
-                            <p class="border-l-2 border-primary/50 pl-6">
-                                기존 구인구직 사이트들은 담당자가 수시로 바뀌거나, 가게 상황도 모르는 '방치형 실장'이 너무 많습니다. 
-                                저희는 **강남 탑클래스 매출 1등 팀**으로 손님 수 대비 언니들이 항상 부족한 상황입니다. 
-                                <span class="text-primary font-bold">즉, 돈 걱정은 아예 하지 마시라는 뜻입니다.</span>
-                            </p>
-                            <p class="border-l-2 border-primary/50 pl-6">
-                                쌍팔년도식 강요나 억지 근무는 절대 없습니다. 여러분의 컨디션과 스케줄을 최우선으로 존중하며, 
-                                **가족 같은 환경**에서 가장 편안하게 고수익을 올릴 수 있도록 실시간 상담을 통해 케어합니다.
-                            </p>
+            <!-- 1. Real Identity & Pride -->
+            <section class="space-y-12">
+                <div class="text-center space-y-6">
+                    <h2 class="text-3xl md:text-5xl font-black text-white italic uppercase tracking-tighter">True High-End Team</h2>
+                    <p class="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+                        안녕하세요! 강남 넘사 탑클래스 매출 1등 팀이 직접 언니들을 구하고 있습니다. 
+                        단순한 구인이 아닙니다. 영업력이 좋고 손님이 가장 많은 팀과 함께 인생 페이를 찍어보실 열정 있는 분들을 기다립니다.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="info-card p-10 space-y-6 bg-primary/5 border-primary/20 hover:border-primary transition-all">
+                        <div class="flex items-center gap-4">
+                            <span class="text-3xl font-black text-primary">01</span>
+                            <h3 class="text-2xl font-bold text-white">왜 언니들을 구할까요?</h3>
                         </div>
+                        <p class="text-gray-300 leading-relaxed text-base md:text-lg">
+                            이유는 명확합니다. **손님이 너무나도 많은데, 손님 수 대비 언니들이 너무나 부족하기 때문입니다.** 방은 넘쳐나는데 언니들이 없어서 못 받는 상황입니다. 즉, 돈 걱정은 아예 하지 마시고 몸만 오시면 된다는 뜻입니다.
+                        </p>
+                    </div>
+                    <div class="info-card p-10 space-y-6 border-white/10 hover:border-primary transition-all">
+                        <div class="flex items-center gap-4">
+                            <span class="text-3xl font-black text-primary">02</span>
+                            <h3 class="text-2xl font-bold text-white">존중받는 근무 환경</h3>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed text-base md:text-lg">
+                            **쌍팔년도 식**으로 퇴근 못 하게 막으며 억지로 일시키고 밀어 넣지 않습니다. 
+                            여러분은 소중한 인격체입니다. 힘든 일을 하는 만큼 최고의 대우와 가족 같은 분위기 속에서 여러분을 존중해 드립니다.
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <!-- 2. Detail Guides -->
-            <section id="guides" class="space-y-16">
+            <!-- 2. Detailed Work Analysis -->
+            <section class="space-y-16 pt-10 border-t border-white/5">
                 <div class="text-center space-y-4">
-                    <h2 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter italic">Professional Service</h2>
-                    <p class="text-gray-400 text-lg">룸알바, 쩜오, 텐카페, 풀싸롱 - 정확한 차이를 알고 시작하세요.</p>
+                    <h2 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter italic">Job Details</h2>
+                    <p class="text-gray-400">일이라고 다 똑같은 일이 아닙니다. 어떤 팀과 함께하느지가 중요합니다.</p>
                 </div>
 
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="info-card p-8 space-y-6 hover:-translate-y-2 transition-transform shadow-lg">
-                        <div class="flex justify-between items-center">
-                            <h3 class="text-2xl font-bold text-primary">쩜오알바</h3>
-                            <span class="text-[10px] bg-primary/20 text-primary px-3 py-1 rounded-full font-bold uppercase">Premium</span>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- 업무내용 -->
+                    <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
+                        <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                         </div>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            가장 자유롭고 유연한 환경입니다. 대학생, 직장인 투잡 언니들이 선호하며, 분위기가 무겁지 않아 초보자 진입장벽이 낮습니다. 
-                        </p>
-                        <ul class="text-xs text-gray-500 space-y-2">
-                            <li>• 출퇴근 스케줄 100% 자율</li>
-                            <li>• 복장 규제 거의 없음 (본인 스타일)</li>
-                            <li>• 기복 없는 고정 수입 보장</li>
-                        </ul>
+                        <h4 class="text-2xl font-black text-white uppercase">업무 내용</h4>
+                        <div class="flex-grow space-y-4">
+                            <p class="text-gray-400 text-sm leading-relaxed italic">"진상? 블랙리스트? 저희가 미리 거릅니다."</p>
+                            <ul class="space-y-4 text-gray-300 text-sm font-medium">
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 블랙리스트, 만취 손님 원천 차단</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 편안한 분위기 대화 및 서브 역할</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 초보자 각별히 신경 및 1:1 케어</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 개인 팁이 정말 잘 나오는 고퀄리티 분위기</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="info-card p-8 space-y-6 hover:-translate-y-2 transition-transform shadow-lg border-primary/20">
-                        <div class="flex justify-between items-center">
-                            <h3 class="text-2xl font-bold text-primary">텐카페/텐프로</h3>
-                            <span class="text-[10px] bg-primary/20 text-primary px-3 py-1 rounded-full font-bold uppercase">Top-Class</span>
+                    <!-- 근무시간 -->
+                    <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
+                        <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            품격 있는 손님들과의 프라이빗한 비즈니스 대화가 중심입니다. 진상이 거의 없으며 개인 팁 수준이 매우 높습니다. 
-                        </p>
-                        <ul class="text-xs text-gray-500 space-y-2">
-                            <li>• 상위 1% 퀄리티 손님 위주</li>
-                            <li>• 압도적인 개인 팁 발생</li>
-                            <li>• 철저한 프라이버시 보호 시스템</li>
-                        </ul>
+                        <h4 class="text-2xl font-black text-white uppercase">근무 시간</h4>
+                        <div class="flex-grow space-y-4">
+                            <p class="text-gray-400 text-sm leading-relaxed italic">"정해진 시간 없어요. 편할 때 나오세요."</p>
+                            <ul class="space-y-4 text-gray-300 text-sm font-medium">
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 직장인, 투잡, 대학생 모두 환영</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 출근이 늦어도 관계없음 (자율 출근)</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 일 욕심보다 본인 몸 건강이 먼저</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 초저녁부터 늦일(Late)까지 방 넘침</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="info-card p-8 space-y-6 hover:-translate-y-2 transition-transform shadow-lg">
-                        <div class="flex justify-between items-center">
-                            <h3 class="text-2xl font-bold text-primary">풀싸롱/셔츠룸</h3>
-                            <span class="text-[10px] bg-primary/20 text-primary px-3 py-1 rounded-full font-bold uppercase">Systematic</span>
+                    <!-- 자격 및 복장 -->
+                    <div class="bg-white/5 p-10 rounded-[40px] border border-white/10 space-y-6 h-full flex flex-col">
+                        <div class="bg-primary/20 w-14 h-14 rounded-2xl flex items-center justify-center text-primary mb-2">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            매뉴얼이 명확하고 시스템이 체계적입니다. 단기간에 목돈을 모으고 싶은 분들에게 가장 효율적인 선택지입니다.
-                        </p>
-                        <ul class="text-xs text-gray-500 space-y-2">
-                            <li>• 확실한 수입 목표 달성</li>
-                            <li>• 체계적인 정산 및 관리 시스템</li>
-                            <li>• 초보를 위한 1:1 현장 가이드</li>
-                        </ul>
+                        <h4 class="text-2xl font-black text-white uppercase">자격 및 복장</h4>
+                        <div class="flex-grow space-y-4">
+                            <p class="text-gray-400 text-sm leading-relaxed italic">"자신감만 가지고 오시면 충분합니다."</p>
+                            <ul class="space-y-4 text-gray-300 text-sm font-medium">
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 20세 이상 한국 국적 레이디 누구나</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 원피스, 투피스 등 본인 스타일 복장</li>
+                                <li class="flex items-start gap-2"><span class="text-primary">•</span> 예뻐지려는 의지만 있으면 적극 지원</li>
+                                <li class="flex items-start gap-2 font-bold text-white"><span class="text-primary">•</span> 페이는 100% 당일 지급 원칙</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- 3. Real Benefits -->
-            <section id="benefits" class="space-y-12 pt-10 border-t border-white/5">
-                <div class="grid md:grid-cols-2 gap-12 items-center">
+            <!-- 3. The Bold Promise (1-Day Challenge) -->
+            <section class="relative">
+                <div class="info-card p-12 md:p-28 bg-gradient-to-br from-darkCard to-black border-primary/60 text-center space-y-12 shadow-[0_0_70px_rgba(212,175,55,0.2)]">
+                    <div class="space-y-4">
+                        <h2 class="text-3xl md:text-6xl font-black text-white italic uppercase tracking-tighter leading-tight">
+                            "1일(하루) 나와보시고 <br class="md:hidden"> 직접 팀 분위기를 보세요"
+                        </h2>
+                        <div class="h-1.5 w-32 bg-primary mx-auto rounded-full"></div>
+                    </div>
+                    <p class="text-xl md:text-3xl text-gray-200 leading-relaxed max-w-4xl mx-auto italic font-medium">
+                        "여기까지 읽으셨는데 망설여지시나요? 하루만 투자해 보세요. <br class="hidden md:block">
+                        나왔는데 방 개수나 실장 태도가 별로다 싶으면 **저 쌍욕 한 번 하시고 제 번호 차단**하시면 됩니다. <br class="hidden md:block">
+                        <span class="text-primary font-black">물론 그럴 일 절대 없다는 거, 자신 있게 말씀드립니다."</span>
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6 pt-10">
+                        <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="bg-primary text-darkest font-black text-xl py-6 rounded-3xl hover:bg-yellow-600 transition-all shadow-2xl">상담 번호 복사</button>
+                        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="bg-kakao text-darkest font-black text-xl py-6 rounded-3xl hover:opacity-90 transition-all shadow-2xl">카톡 아이디 복사</button>
+                    </div>
+                    <p class="text-gray-500 font-bold text-lg underline underline-offset-8 decoration-primary">면접 오시면 차비 지원 해드립니다!</p>
+                </div>
+            </section>
+
+            <!-- 4. Differentiating Us (Why Managers Matter) -->
+            <section id="why-us" class="space-y-16 pt-10 border-t border-white/5">
+                <div class="text-center space-y-4">
+                    <h2 class="text-3xl md:text-5xl font-black text-white italic uppercase">Why Our Managers?</h2>
+                    <p class="text-gray-400 text-lg">어떤 실장, 어떤 부장과 일하느냐가 페이를 좌지우지합니다.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
                     <div class="space-y-8">
-                        <h2 class="text-3xl md:text-5xl font-black text-white leading-tight italic uppercase">Wait! 망설이지 마세요.</h2>
-                        <div class="space-y-6">
-                            <div class="flex items-start gap-4">
-                                <span class="w-10 h-10 rounded-xl bg-primary/20 text-primary flex items-center justify-center font-bold shrink-0 shadow-lg">1</span>
-                                <div>
-                                    <p class="text-white font-bold text-lg mb-1">면접 시 차비 지원</p>
-                                    <p class="text-gray-400 text-sm italic">오시는 발걸음 가볍게, 제가 직접 챙겨드립니다.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <span class="w-10 h-10 rounded-xl bg-primary/20 text-primary flex items-center justify-center font-bold shrink-0 shadow-lg">2</span>
-                                <div>
-                                    <p class="text-white font-bold text-lg mb-1">100% 당일 지급</p>
-                                    <p class="text-gray-400 text-sm italic">그날 번 돈은 그날 가져가시는 것이 당연한 원칙입니다.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h4 class="text-2xl font-bold text-white flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-primary text-base italic">X</span>
+                            다른 곳의 현실
+                        </h4>
+                        <ul class="space-y-6 text-gray-400 text-base leading-relaxed">
+                            <li class="bg-white/5 p-6 rounded-2xl border border-white/5">담당이 마음에 안 들거나 힘이 없어서 방치되는 경우</li>
+                            <li class="bg-white/5 p-6 rounded-2xl border border-white/5">실장이 가게에 없고 다른 데로 싸돌아다니는 경우</li>
+                            <li class="bg-white/5 p-6 rounded-2xl border border-white/5">일이 없어서 방황하다가 옮기시는 분들 꽤 많습니다</li>
+                        </ul>
                     </div>
-                    <div class="info-card p-10 bg-gradient-to-br from-darkCard to-black border-primary/40 text-center space-y-6 shadow-2xl">
-                        <h4 class="text-2xl font-black text-white italic">"1일 체험 후 결정하세요"</h4>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            하루만 나와보세요. 제가 말한 손님 수, 팀 분위기, 페이 정산까지 거짓이 있다면 바로 차단하셔도 됩니다.
-                        </p>
-                        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="w-full py-4 bg-kakao text-darkest font-black rounded-xl hover:opacity-90 shadow-xl transition-all">실시간 비밀 상담하기</button>
+                    <div class="space-y-8">
+                        <h4 class="text-2xl font-bold text-primary flex items-center gap-3 italic">
+                            <span class="w-10 h-10 rounded-full bg-primary text-darkest flex items-center justify-center text-base font-black">!</span>
+                            저희 팀의 약속
+                        </h4>
+                        <div class="info-card p-10 bg-primary/10 border-primary/40 flex-grow">
+                            <p class="text-white text-lg font-medium leading-relaxed italic">
+                                "저희 팀 수준은 하루만 나오면 바로 알 수 있습니다. <br class="hidden md:block">
+                                능력 있는 부장들과 손님 많은 마담들이 언니들과 언제나 함께합니다. <br class="hidden md:block">
+                                **하루 페이를 좌지우지하는 초저녁부터 새벽 늦일**까지 저희는 자신 있습니다. 
+                                같이 열심히 해봐요, 제가 끝까지 책임지겠습니다."
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- 4. FAQ -->
-            <section id="faq" class="space-y-12 pt-10 border-t border-white/5">
-                <h3 class="text-3xl font-black text-center text-white italic uppercase tracking-[0.2em]">Expert Advice</h3>
+            <!-- 5. Final Advice & Warning -->
+            <section class="text-center space-y-12">
                 <div class="space-y-4">
-                    <details class="info-card p-8 group cursor-pointer" open>
-                        <summary class="text-primary font-black flex items-center justify-between font-sans text-lg">
-                            <span>Q. 여우알바나 악녀알바와 무엇이 다른가요?</span>
-                            <span class="text-white group-open:rotate-180 transition-transform">↓</span>
-                        </summary>
-                        <p class="text-gray-400 text-sm md:text-base pt-6 leading-relaxed">
-                            광고 플랫폼은 담당 실장이 방치되는 경우가 많습니다. 저희는 실시간 상담을 통해 **현장의 현실적인 수익 데이터**를 오픈하여 여러분이 시간 낭비 없이 목돈을 모을 수 있게 돕습니다.
-                        </p>
-                    </details>
+                    <h3 class="text-2xl md:text-4xl font-black text-white italic">P.S REAL ADVICE</h3>
+                    <div class="h-0.5 w-16 bg-primary mx-auto opacity-50"></div>
+                </div>
+                <div class="bg-white/5 p-12 rounded-[50px] border border-white/10 max-w-4xl mx-auto">
+                    <p class="text-gray-300 text-lg leading-relaxed italic">
+                        "문의 하자마자 **마이킹(선불)** 얘기 하실 분은 정중히 사양합니다. 다른 데 알아보세요! <br class="hidden md:block">
+                        성실하게 일해서 본인의 가치를 올리고 큰 돈 벌어보실 언니들은 주저 없이 연락 주세요. <br class="hidden md:block">
+                        열정만 가지고 오시면 모든 지원은 제가 해결해 드릴 겁니다."
+                    </p>
                 </div>
             </section>
         </div>
 
         <!-- SEO Tag Cloud -->
-        <section class="container mx-auto px-6 pb-20 text-center">
-            <div class="tag-cloud flex flex-wrap justify-center items-center gap-x-3 gap-y-1 max-w-4xl mx-auto opacity-40">
-                <span>강남룸알바</span><span>밤알바정보</span><span>여우알바</span><span>악녀알바</span><span>알바룸</span><span>강남밤일</span><span>여성고수익알바</span>
-                <span>쩜오조건</span><span>텐프로알바</span><span>텐카페구인</span><span>셔츠룸구인</span><span>룸싸롱알바</span><span>당일지급</span><span>고소득알바</span>
-                <span>유흥구인구직</span><span>강남유흥</span><span>역삼룸알바</span><span>논현밤알바</span><span>신사알바</span><span>강남1등매출</span><span>밤일가이드</span>
+        <section class="container mx-auto px-6 pb-24 text-center opacity-30">
+            <div class="tag-cloud flex flex-wrap justify-center items-center gap-x-4 gap-y-1 max-w-5xl mx-auto font-medium">
+                <span>강남룸알바</span><span>밤알바정보</span><span>여우알바</span><span>악녀알바</span><span>강남1등매출</span><span>쩜오조건</span>
+                <span>텐프로알바</span><span>텐카페구인</span><span>셔츠룸구인</span><span>당일지급</span><span>고소득알바</span><span>유흥구인구직</span>
+                <span>역삼룸알바</span><span>논현밤알바</span><span>신사알바</span><span>차비지원</span><span>진상없는곳</span><span>초보케어</span>
             </div>
         </section>
     </main>
@@ -347,38 +363,36 @@
     <!-- Footer -->
     <footer class="bg-black py-24 px-6 text-center border-t border-white/5">
         <div class="max-w-4xl mx-auto space-y-10">
-            <div class="text-2xl font-black text-gold-gradient tracking-[0.5em] uppercase font-black">ROOMALBA</div>
-            <p class="text-gray-600 text-[11px] md:text-xs leading-relaxed max-w-2xl mx-auto">
-                본 사이트는 강남 1등 매출팀의 구인 및 정보 안내 플랫폼입니다. 미성년자는 절대 이용할 수 없습니다.
-                <br><br>
-                실시간 1:1 전담 실장 상담 지원 (클릭하여 정보를 복사하세요)
+            <div class="text-3xl font-black text-gold-gradient tracking-[0.5em] uppercase italic">ROOMALBA</div>
+            <p class="text-gray-500 text-sm md:text-base leading-loose max-w-2xl mx-auto font-medium">
+                강남 넘사 탑클래스 매출 1등 팀의 직접 구인 및 안내 플랫폼입니다. <br class="hidden md:block">
+                미성년자는 절대 이용할 수 없으며, 모든 정산은 당일 지급 원칙으로 운영됩니다. <br>
+                **면접 시 차비 현장 지원 및 1:1 전담 실장 밀착 케어 약속드립니다.**
             </p>
-            <div class="pt-8 text-[10px] text-gray-800 tracking-widest font-bold font-sans uppercase">
-                &copy; 2024 ROOMALBA. PRESERVED REALITY & TRUST. ALL RIGHTS RESERVED.
+            <div class="pt-10 text-[11px] text-gray-700 tracking-widest font-black font-sans uppercase border-t border-white/5">
+                &copy; 2024 ROOMALBA. REALITY & NO-STRESS MANAGEMENT. ALL RIGHTS RESERVED.
             </div>
         </div>
     </footer>
 
-    <!-- Mobile Sticky Footer CTA (전화번호 노출 제거 및 복사 기능) -->
-    <div class="mobile-cta md:hidden flex gap-3 shadow-[0_-10px_30px_rgba(0,0,0,0.5)]">
-        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex-1 bg-kakao text-darkest font-black h-14 flex items-center justify-center rounded-2xl text-[14px] shadow-lg active:scale-95 transition-transform">
+    <!-- Mobile Sticky Footer CTA -->
+    <div class="mobile-cta md:hidden flex gap-3 shadow-[0_-15px_40px_rgba(0,0,0,0.7)]">
+        <button onclick="copyToClipboard('hyuk012345', '카톡 아이디가 복사되었습니다!')" class="flex-1 bg-kakao text-darkest font-black h-16 flex items-center justify-center rounded-2xl text-[15px] shadow-lg active:scale-95 transition-transform">
             카톡 복사
         </button>
-        <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="flex-[1.8] bg-primary text-darkest font-black h-14 flex items-center justify-center rounded-2xl text-[15px] shadow-lg active:scale-95 transition-transform">
-            전화 번호 복사
+        <button onclick="copyToClipboard('010-8208-0488', '상담 번호가 복사되었습니다!')" class="flex-[1.8] bg-primary text-darkest font-black h-16 flex items-center justify-center rounded-2xl text-[16px] shadow-lg active:scale-95 transition-transform uppercase italic">
+            번호 복사
         </button>
     </div>
 
-    <div class="h-28 md:hidden"></div>
+    <div class="h-32 md:hidden"></div>
 
-    <!-- JavaScript for Clipboard Copy and Toast -->
     <script>
         function copyToClipboard(text, message) {
             const tempInput = document.createElement('input');
             tempInput.value = text;
             document.body.appendChild(tempInput);
             tempInput.select();
-            
             try {
                 const successful = document.execCommand('copy');
                 if (successful) {
@@ -387,7 +401,6 @@
             } catch (err) {
                 console.error('복사 실패:', err);
             }
-            
             document.body.removeChild(tempInput);
         }
 
